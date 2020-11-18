@@ -4,7 +4,7 @@
   "description": "Template for building notebooks with docsify.",
   "main": "index.html",
   "scripts": {
-    "start": "ws -p 3000 -r '/my-notebooks/(.*) -> /$1' --open"
+    "start": "ws -p 3000 -r '/docsify-notebooks/(.*) -> /$1' --open"
   },
   "keywords": [],
   "author": "",
