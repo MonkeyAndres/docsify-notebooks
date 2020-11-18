@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+  --mono-hue: 222;
+  --mono-saturation: 14%;
+  --base-background-color: #282c35;
+  --theme-color: #66e0ff;
+  --link-color: var(--theme-color);
+  --selection-color: #fffba0;
+
+  --base-font-family: Roboto, sans-serif;
+  --strong-font-weight: 700;
+
+  --search-flex-order: 0;
+  --search-margin: 1rem 0;
+
+  --sidebar-name-color: #fff;
+  --sidebar-nav-pagelink-background-image: ;
+  --sidebar-nav-pagelink-background-image--active: ;
+  --sidebar-nav-pagelink-background-image--collapse: ;
+  --sidebar-nav-pagelink-background-image--loaded: ;
+  --sidebar-nav-pagelink-padding: 0.25em 0 0.25em 0;
+}
+
+.search input:focus {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+@media screen and (min-width: 1230px) {
+  :root {
+    --sidebar-width: 25rem;
+  }
+}

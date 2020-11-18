@@ -1,0 +1,15 @@
+{
+  "name": "docsify-notebooks",
+  "version": "1.0.0",
+  "description": "Template for building notebooks with docsify.",
+  "main": "index.html",
+  "scripts": {
+    "start": "ws -p 3000 -r '/my-notebooks/(.*) -> /$1' --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "The Unlicense",
+  "devDependencies": {
+    "local-web-server": "^4.2.1"
+  }
+}
