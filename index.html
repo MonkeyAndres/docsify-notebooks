@@ -21,18 +21,12 @@
   <body>
     <div id="app">Loading content...</div>
     <script>
-      const basePath = "/docsify-notebooks/";
-      const relativePath = (path) => `${basePath}#/${path}`;
-
       window.$docsify = {
         name: "📘 My notebooks",
-        nameLink: {
-          "/example-notebook": relativePath("example-notebook/README"),
-          "/": relativePath("README"),
-        },
 
         repo: "monkeyandres/docsify-notebooks",
-        basePath,
+        basePath: "/docsify-notebooks/",
+        relativePath: true,
 
         loadSidebar: true,
         auto2top: true,

@@ -1,3 +1,3 @@
-- [👈🏻 Go back](/README.md)
-- [Introduction](example-notebook/README.md)
-- [Hello world](example-notebook/hello-world.md)
+- [👈🏻 Go back](../README.md)
+- [Introduction](README.md)
+- [Hello world](hello-world.md)
